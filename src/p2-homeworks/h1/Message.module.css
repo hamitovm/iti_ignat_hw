@@ -1,0 +1,56 @@
+
+.background {
+    padding: 20px;
+    width: 720px;
+    height: 300px;
+}
+.green_background {
+    padding: 40px;
+    display: flex;
+    background-color: #a8e700;
+}
+.avatar {
+    border-radius: 50%;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+.avatar img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.chat {
+    display: flex;
+    justify-content: space-between;
+    /*padding: 10px;*/
+    align-self: flex-start;
+    border-radius: 10px;
+    min-height: 120px;
+    width: 600px;
+    background-color: #042001;
+}
+.user_name_message {
+    display: flex;
+    color: #96b094;
+    flex-direction: column;
+}
+.user__name {
+    font-size: 40px;
+    padding: 10px 20px 5px;
+    color: #a99cc9;
+}
+.user__message {
+    font-size: 40px;
+    padding: 10px 20px 25px;
+}
+.message_time {
+    display: flex;
+}
+.message_time div {
+    font-size: 40px;
+    padding: 0 20px 10px 0;
+    color: #546E7C;
+    align-self: flex-end;
+}
