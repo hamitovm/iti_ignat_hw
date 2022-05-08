@@ -1,7 +1,29 @@
 .someClass {
-
+    font-size: 20px;
+    margin: 20px;
+    border: 3px solid cadetblue;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .error {
-    border: 1px solid red;
+    border: 3px solid red;
+}
+
+
+
+.button {
+    font-size: 20px;
+    margin: 20px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.totalUsers {
+    font-size: 24px;
 }
