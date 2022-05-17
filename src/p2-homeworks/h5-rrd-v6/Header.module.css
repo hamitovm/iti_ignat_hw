@@ -1,0 +1,32 @@
+.navlinksBlockStyle {
+    height: 55px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    border-radius: 15px;
+}
+
+.navlinksBlockStyle:hover {
+    background-color: palegreen;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.navlinkStyle {
+    font-size: 20px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.navlinkStyle:hover {
+    border: 2px solid white;
+    padding: 8px;
+    background-color: palegreen;
+    transition-duration: .3s;
+}

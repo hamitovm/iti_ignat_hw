@@ -30,7 +30,7 @@
 .avatar::before {
     content: '';
     position: absolute;
-    top: 242px;
+    top: 328px;
     left: 142px;
     width: 22px;
     height: 35px;
@@ -42,7 +42,7 @@
 .avatar::after {
     content: '';
     position: absolute;
-    top: 242px;
+    top: 328px;
     left: 142px;
     width: 22px;
     height: 35px;
